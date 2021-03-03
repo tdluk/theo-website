@@ -1,48 +1,39 @@
+<h1 align="center">
+  theo-website
+</h1>
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  Source code for my <a href="https://theo.engineer/" target="_blank">personal website</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted by <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/theo-website/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/5c7634be-b708-4fd1-adee-f5e0ea76dede/deploy-status" alt="Netlify Status" />
   </a>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+## 🛠 Development Setup
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
+1.  Install Gatsby CLI
     ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
+    npm install -g gatsby-cli
+    ```
+2.  Clone the repo
+    ```shell
+    git clone https://github.com/tdluk/theo-website.git
+    ```
+3.  Install dependencies
+    ```shell
+    cd theo-website
+    npm install
+    ```
+4.  Run a development server
+    ```shell
+    gatsby develop
     ```
 
-2.  **Start developing.**
+## 🚀 Deployment
+The website uses Netlify's Continuous Deployment. On every commit to `master` Netifly runs `gatsby build`, which compiles the site into the `public` output directory (hidden in this repo) ready for public consumption. 
 
-    Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## 📚 References
+- [Gatsby Docs](https://www.gatsbyjs.com/docs/)
+- [Emotion Docs](https://emotion.sh/docs/introduction)
