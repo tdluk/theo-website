@@ -33,6 +33,12 @@
 ## 🚀 Deployment
 The website uses Netlify's Continuous Deployment. On every commit to `master` Netifly runs `gatsby build`, which compiles the site into the `public` output directory (hidden in this repo) ready for public consumption. 
 
+## 📝 To-do
+
+- [ ] Add [SEO component](https://www.gatsbyjs.com/docs/add-seo-component/)
+- [ ] Add social links
+- [ ] ...
+
 
 ## 📚 References
 - [Gatsby Docs](https://www.gatsbyjs.com/docs/)
