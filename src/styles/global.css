@@ -4,14 +4,13 @@ html {
     overflow-y: scroll;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: #0a192f; /* addition */
+    background-color: #0a192f;
   }
   body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    /* color: hsla(0, 0%, 0%, 0.8); */
-    color: #ced7f8;
+    color: #dce4ff;
     font-weight: normal;
     word-wrap: break-word;
     font-kerning: normal;
@@ -80,7 +79,7 @@ html {
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color: #deebfc;
+    color: #ebf4ff;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: bold;
